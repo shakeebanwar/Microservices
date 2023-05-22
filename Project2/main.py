@@ -15,9 +15,9 @@ def read_root():
 
 def send_email(email: str, subject: str, message: str):
     # Email configurations
-    sender_email = "appointments@virtualtriage.ca"
-    sender_password = "123virtualtriage123"
-    smtp_server = "smtpout.secureserver.net"
+    sender_email = "<fromemail>"
+    sender_password = "<password>"
+    smtp_server = "<emailhost>"
     smtp_port = 587
 
     # Create a multipart message
