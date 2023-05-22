@@ -1,0 +1,4 @@
+Communicate faspi to fastapi and Django to fastapi using rabitmq
+
+Run Project:
+uvicorn main:app --port 8001 --reload
